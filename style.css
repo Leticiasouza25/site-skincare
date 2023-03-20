@@ -64,9 +64,11 @@ header{
         padding: 50px 0;
     }
     
-    .fundadoras-todos{
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+    .chi-todos{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        grid-template-rows: 20% 20% 20% 20% 20%;
     }
     
     .rodape{
