@@ -6,7 +6,7 @@
 
 
 header{
-    background-color: #72D470;
+    background-color: #FF1493;
     color: black;
     display: flex;
     justify-content: space-around;
@@ -21,8 +21,24 @@ header{
         font-size: 45px;
    
     }
+    .vichi{
+        background-image: linear-gradient(#FFFFF0,#FFFFF0);
+        color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+    
+    .vichi-div-conteudo{
+        width: 35%;
+    }
+    .vichi-titulo{
+        padding: 24px 0;
+    }
+    
         
 
 
 
-    }
+    
