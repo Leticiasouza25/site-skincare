@@ -65,12 +65,11 @@ header{
     }
     
     .chi-todos{
-        display:-moz-inline-grid;
-        justify-content: center;
-        text-align: center;
-        grid-template-rows:0,1% 15% 15% ;
-    }
+        display:grid;
+        grid-template-columns:repeat(3, 3fr);
+      }
     
+
     .rodape{
         background-color: #FF1493;
         text-align: center;
